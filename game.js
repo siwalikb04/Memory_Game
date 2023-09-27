@@ -30,12 +30,14 @@
         }
     });
     
-    /*Another way:
-        $(".btn").click((e)=>{
-            let colorName-e.target.id;
-            rest remains same
+    // Another way:
+        $(document).click((e)=>{
+            if(!started){
+                nextSequence();
+                started=true;
+            }
         })
-    */
+    
 
     // playSound can even be made into an anonymous function and will still work as usual
 

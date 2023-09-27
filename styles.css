@@ -10,22 +10,8 @@ body {
   color: #FEF2BF;
 }
 
-.help{
-  font-family: 'Press Start 2P', cursive;
-  font-size: 1rem;
-  margin:  5%;
-  color: #FEF2BF;
-  border: #FEF2BF solid 0.25rem;
-  border-radius: 10%;
-  padding: 0.5rem;
-  display: inline;
-  position: relative;
-  top: 475px;
-  left:700px;
-}
-
 .container {
-  display: block;
+  display: inline-block;
   width: 50%;
   margin: auto;
 
@@ -64,4 +50,50 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+@media (max-width: 630px) {
+  .help{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    margin:  5%;
+    color: #FEF2BF;
+    border: #FEF2BF solid 0.25rem;
+    border-radius: 10%;
+    padding: 0.5rem;
+    display: inline-block;
+    position: absolute;
+    top: 1250px;
+    left: 225px;
+  }
+}
+@media (min-width: 631px) and (max-width: 1130px){
+  .help{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    margin:  5%;
+    color: #FEF2BF;
+    border: #FEF2BF solid 0.25rem;
+    border-radius: 10%;
+    padding: 0.5rem;
+    display: inline-block;
+    position: absolute;
+    top: 1250px;
+    left: 425px;
+  }
+}
+@media (min-width: 1131px) {
+  .help{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    margin:  5%;
+    color: #FEF2BF;
+    border: #FEF2BF solid 0.25rem;
+    border-radius: 10%;
+    padding: 0.5rem;
+    display: inline-block;
+    position: absolute;
+    top: 650px;
+    left:1350px;
+  }
 }
